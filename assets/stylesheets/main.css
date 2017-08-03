@@ -125,7 +125,19 @@ body {
 }
 .row {
 	background: #fff;
-	padding: 66px 0 44px 0;
+	padding: 22px 0 44px 0;
+}
+.row p {
+	margin: 0 200px 0 200px;
+  padding: 10px 80px 10px 80px;
+	text-align: left;
+	font: 16px/18px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.row h3 {
+	margin: 0 200px 0 200px;
+  padding: 10px 80px 10px 80px;
+	text-align: left;
+	font-weight: bold;
 }
 .row-alt {
 	background: #cbe2c1;
@@ -185,17 +197,24 @@ cite, em {
 	font-size: 21px;
 	line-height: 33px;
 	text-align: left;
+	font: 16px/16px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .lead li {
 	text-align: left;
-	line-height: 24px;
+	line-height: 16px;
 	margin-left: 24px;
 	margin-bottom: 24px;
+	font: 16px/16px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.lead h1 {
+		text-align: left;
+		font-weight: bold;
 }
 .lead h3 {
 	text-align: left;
 	font-weight: bold;
 }
+
 /*
   ========================================
   Links
@@ -320,11 +339,12 @@ p a {
 	text-align: center;
 }
 .hero h2 {
-	font-size: 36px;
-	font-weight: 400;
+	font-size: 30px;
+	font-weight: 200;
+	font-style: italic;
 }
 .hero h3 {
-	font-weight: 400;
+	font-weight: 200;
 }
 .hero h4 {
 	font-size: 24px;
@@ -346,6 +366,7 @@ p a {
 }
 .teaser h3 {
 	font: 300 20px/22px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 .teaser p {
 	font: 300 16px/22px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
