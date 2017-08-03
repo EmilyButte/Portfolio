@@ -259,9 +259,9 @@ p a {
 	text-transform: uppercase;
 }
 .tagline {
-	margin: 66px 0 22px 0;
+	margin: 22px 0 16px 0;
 	text-align: right;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: .5px;
 	line-height: 44px;
@@ -338,6 +338,7 @@ p a {
 }
 .teaser img {
 	border-radius: 5px;
+	margin: auto;
 	display: block;
 	margin-bottom: 22px;
 	max-width: 100%;
