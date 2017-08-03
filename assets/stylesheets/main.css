@@ -125,19 +125,11 @@ body {
 }
 .row {
 	background: #fff;
-	padding: 22px 0 44px 0;
+	padding: 44px 0 44px 0;
 }
 .row p {
-	margin: 0 200px 0 200px;
-  padding: 10px 80px 10px 80px;
 	text-align: left;
-	font: 16px/18px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.row h3 {
-	margin: 0 200px 0 200px;
-  padding: 10px 80px 10px 80px;
-	text-align: left;
-	font-weight: bold;
+	font: 16px/16px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .row-alt {
 	background: #cbe2c1;
@@ -204,11 +196,17 @@ cite, em {
 	line-height: 16px;
 	margin-left: 24px;
 	margin-bottom: 24px;
-	font: 16px/16px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/14px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .lead h1 {
 		text-align: left;
 		font-weight: bold;
+}
+.lead h2 {
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 .lead h3 {
 	text-align: left;
@@ -385,19 +383,3 @@ li {
   Experiences
   ========================================
 */
-.experience-info {
-  border: 1px solid #dfe2e5;
-  border-radius: 5px;
-  margin-top: 88px;
-  padding-bottom: 22px;
-  text-align: center;
-}
-.job {
-	margin-bottom: 44px;
-}
-.experience-info img {
-	border-radius: 50%;
-	height: 130px;
-	margin: -66px 0 22px 0;
-	vertical-align: top;
-}
