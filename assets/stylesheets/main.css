@@ -122,7 +122,7 @@ body {
 .row,
 .row-alt {
 	min-width: 960px;
-	line-height: 1.5rem;
+	font: 16px/16px "Lato Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .row {
 	background: #fff;
