@@ -126,11 +126,12 @@ body {
 }
 .row {
 	background: #eefcf5 ;
-	padding: 44px 0 44px 0;
+	padding: 22px 0 22px 0;
 }
 .row #jobs,
 .row-alt #jobs {
 	text-align: left;
+	color:
 }
 .row p {
 	text-align: left;
@@ -141,7 +142,7 @@ body {
 	background: -webkit-linear-gradient(to right, #8dbbbe, #e9f2fa);
 	background: -moz-linear-gradient(to right, #8dbbbe, #e9f2fa);
 	background: linear-gradient(to right, #8dbbbe, #e9f2fa);
-	padding: 44px 0 22px;
+	padding: 22px 0 22px;
 }
 
 /*
@@ -170,7 +171,7 @@ h4 {
 	font-size: 18px;
 }
 h5 {
-	color: #a9b2b9;
+	color: #98a0a6 ;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -361,6 +362,7 @@ p a {
 	color: #a9b2b9;
 }
 .img-circle {
+	border: 1px solid #9799a7;
 	border-radius: 50%;
 	margin: auto;
 	display: block;
@@ -415,38 +417,40 @@ li {
   width: 960px;
 	padding-left: 50%;
   padding-right: 30px;
-
 }
 
 /*
   ========================================
-	Skills & Experiences - needs work!
+	Skills & Experiences
   ========================================
 */
-.teaser .col-1-2{
-	width: 50%;
-	display: inline-block;
-  vertical-align: top;
-	padding-left: 15px;
-  padding-right: 15px;
+.experiences {
+  float: left;
+  width: 30%;
+	margin: 15% 1.5% 0 12%;
+}
+.experiences h1 {
+	text-align: right;
+	font-weight: bold;
+	color: #3d5e77;
+}
+.linkedin {
+  float: right;
+  width: 40%;
+	margin: 2% 15% 0 1.5%;
+}
+.alignleft {
 	float: left;
 }
-.teaser .col-2-2 {
-	width: 50%;
-	display: inline-block;
-  vertical-align: top;
-	padding-left: 15px;
-  padding-right: 15px;
+.alignright {
 	float: right;
 }
-
 
 /*
   ========================================
   Media Queries
   ========================================
 */
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.hero,
 	.container,
